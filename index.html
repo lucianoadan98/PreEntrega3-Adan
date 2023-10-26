@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Lista de Productos</h1>
+
+        <input type="text" id="product-name" placeholder="Nombre del producto">
+        <input type="number" id="product-value" placeholder="Valor del producto">
+        <button id="add-product">Agregar</button>
+
+        <div id="edit-form" style="display: none;">
+            <h3>Editar Producto</h3>
+            <input type="text" id="edit-name" placeholder="Nuevo nombre">
+            <input type="number" id="edit-value" placeholder="Nuevo valor">
+            <button id="save-edit">Guardar</button>
+            <button id="cancel-edit">Cancelar</button>
+        </div>
+
+        <ul id="product-list"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
